@@ -206,45 +206,56 @@ if (isset($_POST['nim'])) {
     }
 
     @media only screen and (max-width: 500px) {
+      body {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+      }
+
       .container {
-        margin: 30px auto;
-        padding: 1rem;
+        margin: 50px auto;
+        /* Increase margin for better spacing */
+        padding: 2rem;
       }
 
       .form-control {
-        padding: 0.5rem;
-        margin-bottom: 0.5rem;
+        width: 100%;
+        /* Make the form input full width */
+        padding: 1.5rem;
+        /* Adjust padding for better spacing */
+        margin-bottom: 1.5rem;
+        font-size: 18px;
+        /* Increase font size for better readability */
       }
 
       input[type="submit"] {
-        padding: 0.5rem;
-        margin-bottom: 0.5rem;
+        width: 100%;
+        /* Make the submit button full width */
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 18px;
+        /* Increase font size for better readability */
       }
 
       .image-container {
-        padding-top: 60%;
-      }
-
-      .container {
-        margin-bottom: 60px;
-      }
-
-      .image-container img {
-        max-width: 100%;
-        object-fit: contain;
+        padding-top: 70%;
+        /* Increase padding for better display */
       }
 
       .error {
         border-radius: 20px;
-        font-size: 12px;
+        font-size: 14px;
+        /* Adjust font size for better visibility */
         margin: auto auto;
-        width: 80%;
+        width: 90%;
+        /* Increase width for better visibility */
         color: red;
-        padding: 10px;
+        padding: 15px;
+        /* Increase padding for better spacing */
         background: white;
         font-weight: bold;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
+        /* Increase margin for better spacing */
       }
     }
   </style>
