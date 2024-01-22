@@ -48,7 +48,8 @@ if (isset($_POST['nim'])) {
     }
 
     .container {
-      max-width: 500px;
+      max-width: 80%;
+      max-height: 80%;
       margin: 50px auto;
       padding: 20px;
       border: 2px solid rgba(255, 255, 255, .2);
@@ -176,7 +177,8 @@ if (isset($_POST['nim'])) {
       margin-top: 20px;
       padding: 10px;
       background: #eee;
-      border-radius: 4px;
+      border-radius: 7px;
+      padding: 10px 60px;
     }
 
     .note p {
